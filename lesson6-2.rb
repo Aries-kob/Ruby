@@ -15,10 +15,10 @@ while i <= input do
   puts "b=#{b}"
 
   puts "計算結果を出力します"
-  puts "a+b=#{a + b}"
-  puts "a-b=#{a - b}"
-  puts "a*b=#{a * b}"
-  puts "a/b=#{a / b}"
+  puts "#{a}+#{b}=#{a + b}"
+  puts "#{a}-#{b}=#{a - b}"
+  puts "#{a}*#{b}=#{a * b}"
+  puts "#{a}/#{b}=#{a / b}"
 
   i += 1
 end
