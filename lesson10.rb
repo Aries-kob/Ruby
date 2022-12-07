@@ -1,11 +1,11 @@
 class Car
   def run(distance)
-    puts"車で#{distance}キロ走ります。"
+    puts "車で#{distance}キロ走ります。"
   end
 end
 
-class Taxi<Car
+class Truck < Car
 end
 
-taxi = Taxi.new
-taxi.run(5)
+truck = Truck.new
+truck.run(5)
